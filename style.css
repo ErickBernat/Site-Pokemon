@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&family=Teko&display=swap');
+
+*{
+    font-family: 'Phudu', cursive;
+    margin: 0;
+    padding: 0;
+}
+.apresentacao{
+    text-align: center;
+    margin: 10%;
+    flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.descricao{
+    width: 300px;
+}
+
+.estilizando{
+    margin: 10%;
+    width: 615px;
+}
+body{
+height: 100vh;
+box-sizing: border-box;
+background-color:#495579;
+color:black;
+}
+strong{
+    color: #EAC696;
+}
+
+.logo{
+    display: flex;
+    scale: 50%;
+}
+.botoes_inicio{
+
+}
+
+.imagem{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;;
+}
+
+header{
+    border-bottom-style:solid;
+    border-width: 10px;
+    border-color: #293047;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #EAC696;
+
+}
+span{
+    padding: 1px;
+}
+
+nav{
+    
+    
+}
+h1{
+  margin:0%;
+}
+.texto_centro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Nome_Pokemon{
+    display: flex;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+}
+p{
+    width: 500px;
+    
+}
+
+.botoes{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes_estilo{
+    color: white;
+    background-color: #7e0101;
+    width: 200px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+.texto_final{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    text-align: center;
+
+}
+
+footer{
+    border-top-style:solid;
+    border-width: 10px;
+    border-color: #293047;
+    height: 15%;
+    padding: 1%;
+    background-color: #EAC696;
+}
+
+.botao_especifico{
+   
+}
+.alinhamento{
+    display: flex;
+    justify-content: space-betwe;
+}
+
+.lista{
+    margin: auto;
+    display: inline;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
