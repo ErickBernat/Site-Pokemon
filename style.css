@@ -63,12 +63,22 @@ span{
     padding: 1px;
 }
 
-nav{
-    
-    
+.horizontal-list{
+    list-style: none;
+    padding: 0;
 }
-h1{
-  margin:0%;
+.horizontal-list li{
+    display: inline-flex;
+    justify-content: space-;
+    width: 230px;
+    margin:auto;
+    margin-top: 30px;
+}
+.titulo{
+    margin: auto;
+    border: 0;
+    padding: 0;
+
 }
 .texto_centro{
     display: flex;
